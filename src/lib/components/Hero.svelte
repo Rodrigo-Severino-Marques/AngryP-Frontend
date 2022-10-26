@@ -27,7 +27,7 @@
             `https://testnet.mirrornode.hedera.com/api/v1/tokens/48738808`
         );
         const data = await res.json();
-        nftSupply = data.total_supply;
+        nftSupply = data.max_supply;
     });
 
     onDestroy(() => {
