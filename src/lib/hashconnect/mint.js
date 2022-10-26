@@ -12,7 +12,7 @@ export default async () => {
 
     console.log('buyer', buyer)
 
-    const res = await fetch('https://launchpad-serverbhs-production.up.railway.app/transaction', {
+    const res = await fetch('https://angryp-frontend-production.up.railway.app/transaction', {
         method: 'POST',
         mode: 'cors',
         headers: {
