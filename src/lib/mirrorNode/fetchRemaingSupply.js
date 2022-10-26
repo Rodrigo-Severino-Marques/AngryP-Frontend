@@ -1,5 +1,5 @@
 // fetch remaining supply data
-const token = '48738667'
+const token = '48738808'
 const treasury = '48509709'
 export default async () => {
     const res = await fetch(`https://testnet.mirrornode.hedera.com/api/v1/accounts/${treasury}/nfts?token.id=${token}`)
